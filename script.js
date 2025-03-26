@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const text = "Welcome to the Dark Web...";
+    const text = "We Are AbsurdSEC Fear Us...";
     let i = 0;
     function typeWriter() {
         if (i < text.length) {
