@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: black;
+    color: limegreen;
+    font-family: "Press Start 2P", monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.glitch {
+    font-size: 2em;
+    text-shadow: 2px 2px red, -2px -2px blue;
+    animation: glitch 0.5s infinite alternate;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 2px 2px red, -2px -2px blue; }
+    100% { text-shadow: -2px -2px red, 2px 2px blue; }
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: limegreen;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.btn {
+    background: limegreen;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+}
